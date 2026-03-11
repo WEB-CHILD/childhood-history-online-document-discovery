@@ -4,7 +4,7 @@ name: GitHub Actions Ipynb for preflight
 jobs:
   preflight:
     permissions:
-        issues: write
+        contents: write
     runs-on: ubuntu-latest
     name: Ipynb for preflight
     steps:
